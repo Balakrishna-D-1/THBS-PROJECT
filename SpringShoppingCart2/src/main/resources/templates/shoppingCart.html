@@ -34,10 +34,12 @@
               <td><img th:src="@{|/productImage?code=${cartLineInfo.productInfo.code}|}" width="190px"></td>
               <td>
                 <b style="color: #000;font-size:16px; font-weight: 600" th:utext="${cartLineInfo.productInfo.name}"></b>
-                <p style="font-size: 14px;">CORE BLACK / CORE BLACK / CORE BLACK<br>
+                <p style="font-size: 14px;">CORE BLACK / CORE white<br>
                 SIZE: M 7.5 / W 8.5<br>
                 PRICE: <span th:utext="${cartLineInfo.productInfo.price}"></span>
                 </p>
+                
+               
                 
                 
                         <input type="hidden"      
@@ -58,6 +60,9 @@
               <input class="btn btn-dark" type="submit" value="Update Quantity" />
               <a th:href="@{/productList}" style="margin-left: 20px;">Continue Shopping</a>
               <a th:href="@{/shoppingCartCustomer}">Checkout</a>
+               <div>
+                <img src="https://image.shutterstock.com/image-vector/set-shoes-chart-size-socks-260nw-1632069205.jpg" alt="Shoe Size Images, Stock Photos &amp;amp; Vectors | Shutterstock" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 350.521px; height: 350px; margin: 100px;">
+                </div>
                
               </td>
               <td></td>
